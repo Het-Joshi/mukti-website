@@ -141,7 +141,7 @@ li a [class = "iconholder"] {
     justify-content: space-between;
 }
 
-.event > p {
+.event > h1> p {
     font-size: 20px;
 }
 
@@ -151,7 +151,7 @@ li a [class = "iconholder"] {
     transition: 0.5s;
 }
 
-.event > h1 {
+.event > div > h1 {
     font-size: 50px;
     font-family: "Oswald";
     color: black;
