@@ -3,8 +3,13 @@ body {
     background-repeat: repeat;
     background-color: #3f3f4e;    
 }
+@font-face {
+    font-family: "Samarkan";
+    src: url(SAMAN___.TTF);
+  }
+
 .welc {
-    width: 60%;
+    width: 70%;
     margin: auto;
     background-color: #a69064;
     border-radius: 20px;
@@ -24,7 +29,7 @@ body {
 }
 
 .events {
-    width: 60%;
+    width: 70%;
     margin: auto;
     background-color: #BC98CB;
     border-radius: 20px;
@@ -38,7 +43,7 @@ body {
 }
 
 .join {
-    width: 60%;
+    width: 70%;
     margin: auto;
     background-color: #696880;
     border-radius: 20px;
@@ -48,6 +53,10 @@ body {
     font-family: "Source Code Pro";
     border: 10px solid #1A0734;
     text-align: justify;
+}
+
+.join > p {
+    font-size: 20px;
 }
 
 .stickynotes {
@@ -62,7 +71,6 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #1A0734;
-
     border-radius: 20px;
 }
   
@@ -135,8 +143,8 @@ li a [class = "iconholder"] {
     background-color: #B9D976;
     padding: 20px;
     box-shadow: 10px 10px #F8B628;
-    width: 275px;
-    height: 400px;
+    width: 27%;
+    height: inherit;
     font-size: 17px;
     display: inline-flex;
 }
@@ -156,11 +164,6 @@ li a [class = "iconholder"] {
     font-family: "Oswald";
 }
 
-.lm {
-    position: relative;
-    bottom: 0;
-    right: 0;
-}
 
 .events .stickynotes .event a{
     color: white;
@@ -168,4 +171,8 @@ li a [class = "iconholder"] {
 
 .events .stickynotes .event a:hover{
     font-weight: bold;    
+}
+
+.join:hover {
+    
 }
