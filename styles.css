@@ -1,0 +1,110 @@
+body {
+    background-image: url(pattern.png);
+    background-repeat: repeat;
+    background-color: #880085;    
+}
+.welc {
+    width: 60%;
+    margin: auto;
+    background-color: #a69064;
+    border-radius: 20px;
+    color: white;
+    margin-top: 30px;
+    padding: 22px 50px;
+    font-family: "Source Code Pro";
+    border:10px solid #1A0734;
+    text-align: justify;
+}
+.welc > p {
+    font-size: 20px;
+}
+
+.welc > h1 {
+    font-size: 70px;
+}
+
+.join {
+    width: 60%;
+    margin: auto;
+    background-color: #696880;
+    border-radius: 20px;
+    color: white;
+    margin-top: 30px;
+    padding: 22px 50px;
+    font-family: "Source Code Pro";
+    border: 10px solid #1A0734;
+    text-align: justify;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1A0734;
+
+    border-radius: 20px;
+}
+  
+.rightnav li {
+    float: right;
+}
+
+.leftnav li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 25px;
+    text-decoration: none;
+    font-family: "Open Sans";
+    color: #EEEACD;
+    font-weight: bold;
+    font-size: 20px;
+}
+  
+li a:hover {
+    background-color: black;
+}
+
+.navbar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.icon {
+    height: 65px;
+}
+
+li a [class = "iconholder"] {
+    padding: 0px;
+
+}
+
+.joinusform {
+    border: 0px;
+    background-color:#3CB371; 
+    color: white;
+    padding: 10px;
+    width: 200px;
+    border-radius: 7px;
+    box-shadow: 0 5px #3f3f4e;
+}
+
+.joinusform:hover {
+    background-color:#A69064;
+    box-shadow: 0px 5px #3f3f4e;
+}
+
+.joinusform:active {
+    box-shadow: 0px 1px #3e3d53;
+    transform: translateY(4px);
+}
+
+
