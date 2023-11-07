@@ -53,6 +53,7 @@ body {
 .stickynotes {
     display: flex;
     justify-content: space-between;
+    padding: 15px;
 }
 
 .navbar {
@@ -121,19 +122,23 @@ li a [class = "iconholder"] {
 .joinusform:hover {
     background-color:#A69064;
     box-shadow: 0px 5px #3f3f4e;
+    transition: 0.5s;
 }
 
 .joinusform:active {
     box-shadow: 0px 1px #3e3d53;
     transform: translateY(4px);
+    transition: 0.2s;
 }
 
 .event {
     background-color: #B9D976;
-    padding: 30px;
+    padding: 20px;
     box-shadow: 10px 10px #F8B628;
     width: 275px;
     font-size: 17px;
+    display: block;
+    justify-content: space-between;
 }
 
 .event > p {
@@ -143,9 +148,12 @@ li a [class = "iconholder"] {
 .event:hover {
     box-shadow: 0px 0px;
     translate: translateX(10px) translateY(10px);
+    transition: 0.5s;
 }
 
 .event > h1 {
-    font-size: 40px;
+    font-size: 50px;
+    font-family: "Oswald";
+    color: black;
 }
 
