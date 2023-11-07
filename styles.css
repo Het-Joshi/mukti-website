@@ -136,9 +136,9 @@ li a [class = "iconholder"] {
     padding: 20px;
     box-shadow: 10px 10px #F8B628;
     width: 275px;
+    height: 400px;
     font-size: 17px;
-    display: block;
-    justify-content: space-between;
+    display: inline-flex;
 }
 
 .event > h1> p {
@@ -154,6 +154,18 @@ li a [class = "iconholder"] {
 .event > div > h1 {
     font-size: 50px;
     font-family: "Oswald";
-    color: black;
 }
 
+.lm {
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+
+.events .stickynotes .event a{
+    color: white;
+}
+
+.events .stickynotes .event a:hover{
+    font-weight: bold;    
+}
